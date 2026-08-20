@@ -6,9 +6,11 @@ export * from './lib/validation';
 export * from './lib/graph-builder';
 export * from './lib/mermaid-converter';
 export * from './lib/schema';
+export * from './lib/schema-fields';
 export type {
   DeserializationOptions,
   SerializationOptions,
   ValidationOptions,
   YamlSerializationOptions,
 } from './lib/serialization';
+

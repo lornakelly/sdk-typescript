@@ -39,6 +39,7 @@
   "sideEffects": false,
   "packageManager": "npm@11.5.1",
   "scripts": {
+    "poc:fields": "npx tsx scripts/try-schema-fields.ts",
     "rimraf": "npx rimraf",
     "tsc": "npx tsc",
     "tsx": "npx tsx",
